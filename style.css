@@ -1,0 +1,172 @@
+body {
+    margin:0px;
+}
+.entire-page {
+    background-color: #EBECF0;
+}
+#header {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color:#EBECF0;
+    width: 100%;
+}
+#header-img {
+    height: 70px;
+    margin-left: 3em;
+}
+#nav-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    padding:30px;
+} 
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin: 0 3em;
+}
+#main {
+    margin-top:75px;
+    text-align: center;
+}
+#main h2 {
+    margin-top:0px;
+    padding-top:2em;
+}
+#email {
+    padding: 0.5em;
+}
+#submit {
+    margin: 1.5em 0;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(241, 210, 33);
+    border: none;
+}
+#submit:hover {
+    background-color: orange;
+}
+#features {
+    width:55%;
+    margin: 0px auto;
+}
+#features h2 {
+    margin-top: 2.5em;
+    margin-bottom: 0px;
+}
+#features p {
+    margin-top: 0.2em;
+}
+.youtube {
+    width:40%;
+    margin: 5em auto;
+}
+#video {
+    width: 100%;
+    height: 315px;
+}
+#pricing {
+    width:69%;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.price-list {
+    margin: 0 1em 2em;
+    width: 270px;
+    height: 370px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.price-list h3 {
+    background-color:rgb(202, 193, 193);
+    margin:0px;
+    padding: 0.8em;
+}
+.price-content {
+    padding: 0 3em 1em;
+}
+.money {
+    font-size: 1.5em;
+    font-weight:bold;
+}
+.btn-select {
+    background-color: rgb(241, 210, 33);
+    border:none;
+    padding: 1em;
+}
+.btn-select:hover {
+    background-color: orange;
+}
+#footer {
+    width: 70%;
+    margin: 0px auto;
+    background-color:rgb(202, 193, 193);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footer-links {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+#footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:0.5em 1.2em 1.2em 0;
+}
+#footer a {
+    text-decoration: none;
+    color:black;
+    margin: 1em 1em 0;
+}
+
+@media (max-width: 450px) {
+    #header {
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #header-img {
+       margin:0px;
+    }
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        width:70%;
+        padding:1em;
+        margin: 0em auto;
+    }
+    .nav-link {
+        margin: 0.2em 0;
+    }
+    #main {
+        margin-top:150px ;
+    }
+    #features {
+        width: 90%;
+        text-align: center;
+    }
+    .youtube {
+        width: 100%;
+    }
+    #pricing {
+        width: 100%;
+    }
+    .price-list {
+        width:80%;
+        margin: 10px auto;
+    }
+    #footer {
+        width: 100%;
+        font-size:0.8em ;
+    }
+}
